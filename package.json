@@ -1,0 +1,33 @@
+{
+  "name": "robindb-client",
+  "version": "1.0.3",
+  "description": "Connect to a remote RobinDB server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "quick",
+    "easy",
+    "fast",
+    "db",
+    "nedb",
+    "client",
+    "cloud"
+  ],
+  "author": "YodaLightsabr",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YodaLightsabr/RobinDB-Client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YodaLightsabr/RobinDB-Client/issues"
+  },
+  "homepage": "https://github.com/YodaLightsabr/RobinDB-Client#readme"
+}
