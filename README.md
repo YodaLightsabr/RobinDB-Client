@@ -64,6 +64,8 @@ returns `Promise<Boolean>`
 ### `Robin.all()`
 Get the entire database
 
+returns `Promise<Object>`
+
 
 ## Important information
 This database server was built with [Replit](https://replit.com) in mind, so that's where it's meant to be used. If you're making a larger project, a database such as MongoDB or a SQL database would probably be a better fit.
