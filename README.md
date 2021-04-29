@@ -48,9 +48,22 @@ Push a value to an array. The value at the specified key must be an array. Ognom
 returns `Promise<Number>`
 
 ### `Robin.delete(key)`
+Delete a key from the database
  - `key` - The key to delete. If deleting a key nested inside of objects, use dot notation. Required
 
 returns `Promise<Number>`
+
+
+### `Robin.has(key)`
+Find if a key exists in the database
+ - `key` - The key to look for
+
+returns `Promise<Boolean>`
+
+
+### `Robin.all()`
+Get the entire database
+
 
 ## Important information
 This database server was built with [Replit](https://replit.com) in mind, so that's where it's meant to be used. If you're making a larger project, a database such as MongoDB or a SQL database would probably be a better fit.
